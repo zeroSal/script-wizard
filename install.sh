@@ -12,8 +12,8 @@ SHORTPROGRAMNAME=""
 echo "Welcome to the $PROGRAMNAME installer
 
 By using this software you must agree all below terms:
-    1) Usage of this tools for attacking targets without prior mutual consent is illegal.
-    2) By using this software, it's the end user’s responsibility to obey all applicable local, state and federal laws.
+    1) By using this software, it's the end user’s responsibility to obey all applicable local, state and federal laws.
+    2) The software is provided \"as is\", without warranty of any kind, express or implied.
     3) $DEVELOPERNAME isn't responsible for any damage caused by this software.
 
 [?] If you agree, press [Enter] to procede:"
@@ -22,7 +22,7 @@ read junk
 # TODO: Implement non-APT environment installation
 if [ $(dpkg-query -W -f='${Status}' python3 > /dev/null 2>&1 | grep -c "ok installed") -eq 0 ]; then
 	# Python3 not installed on the system, just install it!
-    echo "[*] Installing python interpreter on the system..."
+  echo "[*] Installing python interpreter on the system..."
 	apt update > /dev/null 2>&1;
 	apt install python3 > /dev/null 2>&1;
 fi

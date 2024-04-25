@@ -1,2 +1,2 @@
 # script-wizard
-A fully automated installer script template
+A fully automated installer for python scripts
