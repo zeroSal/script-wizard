@@ -1,6 +1,10 @@
 # script-wizard
 A fully automated installer for python scripts.
 
+![witch-hat](https://github.com/zeroSal/script-wizard/assets/38191926/ac7b475d-60c0-4ee2-b24c-05ebcd3c8ed2)
+
+[Icon by Freepik - Flaticon](https://www.flaticon.com/free-icons/wizard)
+
 # Requirements
 - The shell should be `bash`
 - MacOS or Linux
@@ -13,4 +17,3 @@ A fully automated installer for python scripts.
     - `PROGRAMNAME` is the **full program name** such as "My Project"
     - `DEVELOPERNAME` is the **developer name** such as "My Name"
     - `SHORTPROGRAMNAME` is the **git like project name** such as "my-project"
-
